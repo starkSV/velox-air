@@ -34,7 +34,7 @@ function App() {
       {/* Fleet Section */}
       <section className="p-10 bg-gray-50">
         <h2 className="text-3xl font-bold text-center mb-8">Our Fleet</h2>
-        <div className="grid md:grid-cols-3 gap-6 text-center">
+        <div className="grid md:grid-cols-3 gap-6 text-center max-w-screen-lg mx-auto">
           
           {/* A321LR */}
           <div className="bg-white shadow-md rounded-lg p-4">
