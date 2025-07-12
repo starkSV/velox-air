@@ -6,13 +6,13 @@ function App() {
     <div className="font-montserrat bg-gray-100 text-gray-900">
       {/* Header Section */}
       <section className="bg-[#152237] border-b border-blue-900 text-white text-center px-4 py-4">
-        <img src="/VLR_Horizontal.png" alt="Velox Air" className="w-60 mx-auto" />
+        <img src="./VLR_Horizontal.png" alt="Velox Air" className="w-60 mx-auto" />
       </section>
 
       {/* A350 Image Section */}
       <section className="bg-white py-6 text-center">
         <img
-          src="/A350_velox.png"
+          src="./A350_velox.png"
           alt="Velox A350"
           className="mt-[-20px] mx-auto max-w-[90%] md:max-w-3xl drop-shadow-lg"
         />
@@ -38,21 +38,21 @@ function App() {
           
           {/* A321LR */}
           <div className="bg-white shadow-md rounded-lg p-4">
-            <img src="/lufthansa-a321lr.jpg" alt="Lufthansa A321LR" className="w-full h-40 object-cover rounded mb-4" />
+            <img src="./lufthansa-a321lr.jpg" alt="Lufthansa A321LR" className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold">Airbus A321LR</h3>
             <p className="text-sm text-gray-600">Lufthansa Livery (Germany)</p>
           </div>
 
           {/* A320neo */}
           <div className="bg-white shadow-md rounded-lg p-4">
-            <img src="/british-a320neo.jpg" alt="British Airways A320neo" className="w-full h-40 object-cover rounded mb-4" />
+            <img src="./british-a320neo.jpg" alt="British Airways A320neo" className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold">Airbus A320neo</h3>
             <p className="text-sm text-gray-600">British Airways Livery (United Kingdom)</p>
           </div>
 
           {/* A380 */}
           <div className="bg-white shadow-md rounded-lg p-4">
-            <img src="/emirates-a380.jpg" alt="Emirates A380" className="w-full h-40 object-cover rounded mb-4" />
+            <img src="./emirates-a380.jpg" alt="Emirates A380" className="w-full h-40 object-cover rounded mb-4" />
             <h3 className="text-xl font-semibold">Airbus A380</h3>
             <p className="text-sm text-gray-600">Emirates Livery (UAE)</p>
           </div>
@@ -176,9 +176,9 @@ function App() {
 
         {/* Optional static map screenshot */}
         <img
-          src="/velox-worldtour-map.png"
+          src="./velox-worldtour-map.png"
           alt="World Tour Route Map"
-          className="mx-auto rounded-lg shadow-lg mb-4 max-w-3xl"
+          className="w-full max-w-3xl mx-auto rounded-lg shadow-lg mb-4"
         />
 
         <a
@@ -219,7 +219,7 @@ function App() {
               className="bg-gray-50 border border-gray-200 rounded-lg p-4 shadow-sm flex flex-col items-center"
             >
               <img
-                src={`/${logo}`}
+                src={`${logo}`}
                 alt={`${name} Logo`}
                 className="h-10 object-contain mb-2"
               />
